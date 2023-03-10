@@ -1,0 +1,27 @@
+.poster img {
+  border-radius: 12px;
+}
+.moviedetails {
+  width: 100%;
+  min-height: 91.5vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: url("https://stubbs.ca/wp-content/uploads/2015/02/tmn_bg.jpg");
+  color: aliceblue;
+}
+.overview {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 0.9;
+  padding: 15px;
+  gap: 10px;
+}
+.moviestatistic {
+  display: flex;
+  gap: 10px;
+}

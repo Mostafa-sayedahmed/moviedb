@@ -1,0 +1,11 @@
+.moviecard a {
+  text-decoration: none;
+}
+.card-buttons {
+  display: flex;
+  align-items: center;
+  padding-inline: 0.5rem;
+  gap: 0.5rem;
+  justify-content: space-between;
+  color: #0d0d0d00;
+}
