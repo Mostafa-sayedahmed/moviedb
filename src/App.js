@@ -9,10 +9,13 @@ import Moviedetails from "./pages/moviedetails/moviedetails";
 import Notfound from "./pages/notfound/noutfound";
 import { Routes, Route } from "react-router-dom";
 import Container from "@mui/material/Container";
+import { useSelector } from "react-redux";
 function App() {
+  const language = useSelector((state) => state.lang);
+
   return (
     <>
-      <div>
+      <div dir={`${language == "EN" ? "ltr" : "rtl"}`}>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
